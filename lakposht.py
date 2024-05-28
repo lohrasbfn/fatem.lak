@@ -6,14 +6,14 @@ import random
 wn = turtle.Screen()
 wn.title("بازی لاکپشت و توپ")
 wn.bgcolor("white")  
-wn.setup(width=600, height=600)
+wn.setup(width=500, height=500)
 
 
 square = turtle.Turtle()
 square.speed(0)
 square.shape("square")
 square.color("blue")
-square.shapesize(stretch_wid=30, stretch_len=30)
+square.shapesize(stretch_wid=40, stretch_len=40)
 square.penup()
 square.goto(0, 0)
 
